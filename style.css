@@ -1,0 +1,350 @@
+/* Student Name : Naman Sharma
+Student ID : 8837689 */
+
+header h1{
+    font-style: italic;
+}
+
+header h1 span{
+    color: red;
+    /* text-decoration: underline; */
+}
+
+main {
+    background: #eee;
+}
+
+h1, nav, footer{
+    font-family: "Century Gothic", serif;
+}
+
+h2, h3{
+    font-family: "Gabriola", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3{
+    color: red;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.688);
+}
+
+h1 a{
+    color: #eee;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    text-shadow: 2px 2px 10px white;
+}
+
+nav{
+    margin-top: -13px;
+    text-align: center;
+    background-color: black;
+ } 
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav a{
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px 40px 10px 40px;
+    font-weight: 900;
+}
+
+h2 span{
+    color: red;
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 1px rgb(20, 70, 20);
+}
+
+section{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    background-image: url("imgs/pexels-peter-patel-11835216.jpg");
+    color: #eee;
+    background-position: center;
+    background-size: cover;
+}
+.header h1{
+    line-height: 200%;
+}
+
+h2{
+    color: white;
+}
+
+#heroimg {
+    width:100% ;
+    height: 300px;
+    object-position:bottom;
+    object-fit: cover; 
+}
+
+/* Tested with chrome and firefox*/
+main, header, section, aside, footer {
+    margin: 0;
+}
+
+/* Arranged sidebar and main content using flex */
+.flex-container-wrapper
+{
+    max-width: 1920px;
+    display: grid; /*Using grid*/ 
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS CONTENT */
+#header_content {
+    text-align: center;
+    margin: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#header_content p
+{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+#header_content h1 {
+    color: white;
+    background-color: black;
+    font-size: 56px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+/* Grid Usage */
+#container_content
+{
+    margin:1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem; 
+}
+
+/* Flexbox to arrange grid */
+.card {
+    display: flex; 
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    border: solid red 1px;
+    border-radius: 20px;
+}
+.card img
+{
+    height: 200px;
+    width:100%;
+    border-radius: 10px;
+}
+.content_content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.card_button {
+    appearance: none;
+    background-color: red;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 22px;
+}
+
+
+.card_button:hover {
+    background-color: red;
+}
+
+.card_button:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.card_button:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.card_button:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.sidebarimage1{
+    background-image: url('imgs/sidebar1.jpg');
+    width: auto;
+    height: 49%;
+    background-position: center;
+    background-size: cover;
+}
+.sidebarimage2
+{
+    background-image: url('imgs/sidebar2.jpg');
+    width: auto;
+    margin-top: 2%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    display: flex; 
+    flex-wrap: wrap;
+    font-size: smaller;
+    font-family: "Century Gothic",serif;
+    background-color: black;
+    color: #eee;
+    padding: 10px 10% 10px 10% ;
+}
+
+footer nav a{
+    color: #eee;
+    display: block;
+    padding: 0%;
+    text-align: left;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer_div{
+    flex-grow: 1;
+    padding-left: 10%;
+ }
+
+ .navmenu li a{
+    color: white;
+ }
+
+ .footer_div ul li{
+    font-size: larger;
+ }
+
+ #copyright{
+    font-family: "Serif";
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+#copyright span{
+    color: red;
+}
+
+
+/* MEDIA QUERIES FOR TABLET */
+@media screen and (max-width:1080px) {
+    h1{
+        line-height: 200%;
+    }
+    .flex-container-wrapper
+    {
+        grid-template-columns: 1fr 2.5fr;
+    }
+    #container_content{
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
+
+/* MEDIA QUERIES FOR MOBILE */
+@media screen and (max-width:720px) {
+    
+    .flex-container-wrapper
+    {
+        grid-template-columns: 100%; 
+    }
+
+    .content
+    {
+        width: 100%;
+        order:1; 
+    }
+    #container_content
+    {
+        grid-template-columns: 1fr; 
+    }
+    .sidebar{
+        width: 100%;
+        order: 2;
+    }
+    .sidebarimage1{
+        background-image: url("imgs/sidebar1.jpg");
+        width:auto;
+        height:200px;
+        background-position: center;
+        background-size: cover;
+    }
+    .sidebarimage2{
+        background-image: url("imgs/sidebar2.jpg");
+        width:auto;
+        height:200px;
+        background-position: center;
+        background-size: cover;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    
+    nav ul li
+    {
+        display: block;
+    }
+    .footer_div
+    {
+        display: block;
+        padding-left: 40%;
+    }
+}
